@@ -80,15 +80,10 @@ const ReserveDetails = (data: any) => {
                           <td>R$ {TotalReserveAmmount(reserve.tickets)}</td>
                         </tr>
                         <tr>
-                          <td>(-) Comissão do parceiro:</td>
-                          <td>R$ {TotalPartnerCommission(reserve.tickets)}</td>
-                        </tr>
-                        <tr>
                           <td>(=) A ser recebido:</td>
                           <td>
                             R${" "}
-                            {TotalReserveAmmount(reserve.tickets) -
-                              TotalPartnerCommission(reserve.tickets)}
+                            {TotalReserveAmmount(reserve.tickets)}
                           </td>
                         </tr>
                       </tbody>
