@@ -1,5 +1,5 @@
 import { Reserve, Ticket } from "types/Reserve";
-import { TotalPartnerCommission, TotalReserveAmmount } from "utils/ammounts";
+import { TotalReserveAmmount } from "utils/ammounts";
 
 const ReserveDetails = (data: any) => {
   const reserve: Reserve = data.data as Reserve;
