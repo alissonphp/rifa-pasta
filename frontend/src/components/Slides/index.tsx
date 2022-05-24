@@ -17,18 +17,15 @@ const Slides = () => {
         >
             <div>
                 <img
-                    src="https://i.ibb.co/XWyj6sw/IMG-0826.jpg"
+                    src="https://i.ibb.co/3FCyCzw/Whats-App-Image-2022-05-24-at-11-10-58.jpg"
                     alt=""
                 />
             </div>
             <div>
                 <img
-                    src="https://i.ibb.co/ZKR34RW/Whats-App-Image-2021-08-14-at-12-26-03.jpg"
+                    src="https://i.ibb.co/LQDDWtL/Whats-App-Image-2022-05-24-at-11-10-59.jpg"
                     alt=""
                 />
-            </div>
-            <div>
-                <img src="https://i.ibb.co/YPbzsYQ/Whats-App-Image-2021-10-06-at-10-28-08.jpg" alt="quadro" />
             </div>
         </Carousel>
     );
