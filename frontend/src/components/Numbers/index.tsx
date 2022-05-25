@@ -82,7 +82,7 @@ const Numbers = (props: NumbersProps) => {
           <p className="mt-3 mb-0">
             Total da compra:{" "}
             <span className="badge bg-primary">
-              R$ {selectNumbers.length * 50.0},00
+              R$ {selectNumbers.length * 30.0},00
             </span>
           </p>
           <p>Parceiro: {partner?.name} <a href={`https://wa.me/55${PHONE_CLEANER(partner?.phone)}`}>{partner?.phone}</a></p>

@@ -100,7 +100,7 @@ const ReserveForm = () => {
                 </span>
               ))}
               <p className="mt-3 my-0">
-                Total: R$ {location.state.selecteds.length * 50.0},00
+                Total: R$ {location.state.selecteds.length * 30.0},00
               </p>
             </div>
           </ul>
