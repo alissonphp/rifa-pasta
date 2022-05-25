@@ -19,7 +19,6 @@ const validationSchema = Yup.object().shape({
     .required("Obrigatório"),
   document: Yup.string()
     .length(14, "CPF deve conter 11 dígitos")
-    .required("Obrigatório"),
 });
 
 const phoneNumberMask = [
